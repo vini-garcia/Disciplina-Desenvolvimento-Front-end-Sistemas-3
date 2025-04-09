@@ -17,6 +17,8 @@ import Animal from "./trilha03/ex2/Animal";
 import Rooms from "./trilha03/ex3/Rooms";
 import RoomDetails from "./trilha03/ex3/RoomDetails";
 import BookingSuccess from "./trilha03/ex3/BookingSuccess";
+import UserFetcher from "./trilha04/ex1/UserFetcher";
+import CreateNewUser from "./trilha04/ex2/CreateNewUser";
 
 const App = () => (
   <main>
@@ -111,6 +113,20 @@ const App = () => (
             <Route path="/booking-success" element={<BookingSuccess />} />
           </Routes>
         </Router>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <h1>Trilha 04</h1>
+
+      <div>
+        <h2>Exercício 01</h2>
+        <UserFetcher />
+      </div>
+
+      <div>
+        <h2>Exercício 02</h2>
+        <CreateNewUser />
       </div>
     </section>
   </main>
